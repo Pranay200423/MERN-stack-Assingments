@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centered Improved Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Welcome to My Webpage</h1>
+      </header>
+
+      <main>
+        <section class="content">
+          <p>
+            This is the first paragraph. It provides an introduction to the
+            content of the page. We've enhanced the layout and styling to create
+            a more engaging user experience.
+          </p>
+          <p>
+            This is the second paragraph, giving more details and context about
+            the topic. The improved design ensures better readability and visual
+            appeal.
+          </p>
+        </section>
+
+        <section class="image-section">
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Beautiful Nature"
+              class="main-image"
+            />
+            <figcaption>Beautiful Nature</figcaption>
+          </figure>
+        </section>
+
+        <button class="cta-button">Click Me</button>
+
+        <section class="table-section">
+          <table>
+            <thead>
+              <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+              </tr>
+              <tr>
+                <td>Data 4</td>
+                <td>Data 5</td>
+                <td>Data 6</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="form-section">
+          <form>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email"
+                required
+              />
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
